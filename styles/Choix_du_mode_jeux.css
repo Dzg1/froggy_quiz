@@ -1,0 +1,54 @@
+.modejeux {
+    padding-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 10rem;
+
+}
+
+.btnchoixjeu{
+    box-shadow: 10px 5px 5px rgb(47, 121, 173);
+    background-color: rgb(97, 160, 211);
+    color: white;
+    height: 5rem;
+    border-radius: 10%;
+    font-size: 50px;
+    border-color: white;
+}
+
+.positionmode{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.img {
+    height: 300px;
+    width: 500px;
+    border-radius: 25%;
+
+
+}
+
+
+@media screen and (max-width : 1750px) {
+
+    .positionmode{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 3rem;
+
+    }
+
+
+
+    .carte{
+        align-items: center;
+    }
+
+}

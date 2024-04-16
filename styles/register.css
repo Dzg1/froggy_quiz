@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: "applejuice";
+    src: url(./assets/font/AppleJuiceRegular.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+
+    width: 100%;
+    height: 500px;
+}
+
+h2 {
+    font-family: var(--font2);
+    text-shadow: #262626;
+    color:#000000;
+    margin-top: 100px;
+
+
+
+}
+
+input {
+    margin-left:12em;
+    height:2em;
+    width: 200px;
+}
+
+label
+{
+    display: block;
+    width: 150px;
+    float: left;
+    outline: solid #024f70;
+    border-radius: 5px;
+    background-color: #d0e2f0;
+    text-align: center;
+}
+
+.contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#024f70;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5rem 5rem;
+    gap: 1rem;
+   background-image: url("../assets/images/fond effacé.png");
+    background-size:cover;
+
+}
+
+.contact .contact-form h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .contact-form input[type="submit"] {
+    margin-top: 1rem;
+
+}
+
+input[type="submit"] {
+    padding: 6px 4px;
+    border-radius: 5px;
+    background-color: #024f70;
+    font-weight: bold;
+    border: 1px solid #393939;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #FFF;
+}
+
+

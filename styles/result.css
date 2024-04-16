@@ -1,0 +1,65 @@
+/* Styles généraux */
+@font-face {
+    font-family: "applejuice";
+    src: url(../assets/font/AppleJuiceRegular.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 400px;
+    width: 60%;
+    border-radius: 20px;
+    background: #ffffff6c;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 16px 0 #00000033;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family:var(--font1) ;
+}
+h2{
+    font-family:var(--font2) ;
+
+}
+.container-results{
+    width:70%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-results a {
+    cursor: pointer;
+    text-align: center;
+    padding: 15px;
+    background-image: linear-gradient(145deg, #ffffff6c, #d9d9d96c);
+    box-shadow: 5px 5px 11px #cdcdcd6c,
+        -5px -5px 11px #ffffff6c;
+    font-size: 11px;
+    font-family: var(--font3);
+    border-radius: 10px;
+text-decoration: none;
+}
+
+.next-pushed {
+    transition: .2s linear;
+    box-shadow: inset -2px -2px 8px #ffffff6c, inset -2px -2px 12px #ffffff6c,
+     inset 2px 2px 4px #ffffff6c, inset 2px 2px 8px #0000006c !important;
+}

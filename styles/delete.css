@@ -1,0 +1,48 @@
+.containerDelete{
+    padding-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bodyDelete{
+
+    background-image: url("../assets/images/Delete.jpg");
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: poppins;
+
+}
+img{
+    width: 100%;
+}
+
+.btnDelete{
+    background-color: grey;
+    color: white;
+    border: 1px solid whitesmoke;
+    padding: 14px;
+    font-size: 16px;
+}
+.btnDelete:hover {
+    border : 3px solid whitesmoke;
+    border-radius: 25%;
+    transform: rotate(7deg) scale(1.4);
+}
+
+.deleteImg{
+    display: none;
+    margin-top: 50px;
+}
+
+.buttonDeleteAdmin{
+    display: flex;
+    gap: 3rem;
+    margin: 5rem;
+}

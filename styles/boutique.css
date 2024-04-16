@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: "applejuice";
+    src: url(./assets/font/AppleJuiceRegular.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+
+    width: 100%;
+    height: 500px;
+
+}
+
+h1 {
+
+    text-align: center;
+    font-family: var(--font2);
+    height: 100px;
+
+}
+
+h2 {
+    margin-left:100px ;
+}
+
+h3 {
+    margin-left: 100px;
+}
+
+.cardBank h3 img {
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    margin-left: 100px;
+    font-weight: bold;
+
+}
+
+.welcome img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+
+}
+
+.welcome a {
+    margin-left: 100px;
+    color: #d0e2f0;
+    border-radius: 5px;
+    background-color: #024f70;
+    border: 1px solid #393939;
+    cursor: pointer;
+
+}
+
+.welcome {
+
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+
+
+
+.introShop {
+
+
+
+
+}
+
+.cardBank {
+
+
+
+
+
+
+
+
+}

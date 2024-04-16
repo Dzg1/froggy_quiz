@@ -1,0 +1,52 @@
+.bodyUpdate {
+    background-image: url("../assets/images/update (3).jpg");
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: poppins;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerUpdate{
+    margin: 6rem 5rem 5rem 5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+
+}
+
+form{
+    display: flex;
+    gap: 3rem;
+
+}
+
+
+.dataUpdate{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px white;
+    padding: 3rem;
+    align-items: center;
+    background: linear-gradient(69deg, rgba(0,85,162,1) 44%, rgba(0,28,44,1) 73%);
+
+}
+
+.inputUpdate{
+    width: 80%;
+    height: 30px;
+}
+.input{
+    display: flex;
+    padding: 5rem;
+    justify-content: center;
+}
+.btnUpdate{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

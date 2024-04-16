@@ -1,0 +1,121 @@
+@font-face {
+    font-family: "applejuice";
+    src: url(./assets/font/AppleJuiceRegular.ttf);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/images/fond effacé.png");
+
+}
+
+.main {
+
+    width: 100%;
+    height: 500px;
+}
+
+h2 {
+    font-family: var(--font2);
+    text-shadow: #262626;
+    color:#000000;
+    margin-top: 100px;
+}
+.contact{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+input {
+
+    height:2em;
+    width: 200px;
+}
+
+label
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    float: left;
+    outline: solid #024f70;
+    border-radius: 5px;
+    background-color: #d0e2f0;
+    text-align: center;
+    padding: 7px;
+}
+
+.contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#024f70;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 5rem;
+    gap: 1rem;
+    width: 500px;
+
+}
+.label-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-form h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact .contact-form  {
+    margin-top: 1rem;
+
+}
+
+input[type="submit"] {
+    padding: 6px 4px;
+    border-radius: 5px;
+    background-color: #024f70;
+    font-weight: bold;
+    border: 1px solid #393939;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #FFF;
+}
+
+.to-register{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

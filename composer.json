@@ -1,0 +1,23 @@
+{
+    "name": "culin/froggy-quizz",
+    "description": "site",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "composer install"
+        }
+    ],
+
+    "require": {
+        "ext-pdo": "*"
+    },
+
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": null,
+    "GitBash": {
+        "path": ["C:\\dev\\Git\\bin\\bash.exe"],
+        "icon": "terminal-bash"
+      },
+    "Cmder": null
+  },
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+}
